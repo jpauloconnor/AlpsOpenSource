@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F16D31CD-1D57-4796-9F1C-5E14CF47763C}</ProjectGuid>
+    <ProjectGuid>{C692B49C-F9E7-435C-985E-050BC75D4B86}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Structs_Demo_pauloc</RootNamespace>

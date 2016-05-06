@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3CDA79A1-3EA9-46EC-B7B7-7654A405E2DA}</ProjectGuid>
+    <ProjectGuid>{A293BCF3-D450-41DA-A855-BF87AF6CF777}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AlpsOpenSource</RootNamespace>
