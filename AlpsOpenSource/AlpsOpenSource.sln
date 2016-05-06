@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlpsOpenSource", "AlpsOpenSource\AlpsOpenSource.csproj", "{A293BCF3-D450-41DA-A855-BF87AF6CF777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums_Demo", "Enums_Demo\Enums_Demo.csproj", "{2722A607-6EEA-4A5D-A186-A21BCC0C59F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A293BCF3-D450-41DA-A855-BF87AF6CF777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A293BCF3-D450-41DA-A855-BF87AF6CF777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A293BCF3-D450-41DA-A855-BF87AF6CF777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2722A607-6EEA-4A5D-A186-A21BCC0C59F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2722A607-6EEA-4A5D-A186-A21BCC0C59F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2722A607-6EEA-4A5D-A186-A21BCC0C59F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2722A607-6EEA-4A5D-A186-A21BCC0C59F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

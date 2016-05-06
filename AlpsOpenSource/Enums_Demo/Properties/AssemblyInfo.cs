@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Structs_Demo_pauloc")]
+[assembly: AssemblyTitle("Enums_Demo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Structs_Demo_pauloc")]
+[assembly: AssemblyProduct("Enums_Demo")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c692b49c-f9e7-435c-985e-050bc75d4b86")]
+[assembly: Guid("2722a607-6eea-4a5d-a186-a21bcc0c59f8")]
 
 // Version information for an assembly consists of the following four values:
 //

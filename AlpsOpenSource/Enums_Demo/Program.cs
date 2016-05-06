@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Structs_Demo_pauloc
+namespace Enums_Demo
 {
     class Program
     {
