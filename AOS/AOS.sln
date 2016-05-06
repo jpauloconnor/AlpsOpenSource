@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AOS", "src\AOS\AOS.xproj", "{8F845B65-DFFE-47BA-BE1C-0D772C2F406B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fred_Is_Forgetful", "Fred_Is_Forgetful", "{96AFE646-A5E2-4042-BFA6-7B8060E3D99A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
