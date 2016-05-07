@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Still under construction here....
+
 namespace Types_Nullable_Demo
 {
     class Program
@@ -30,9 +32,22 @@ namespace Types_Nullable_Demo
             int? i = null;
 
             //Let's say that we don't want to make users answer this on a form.
-            //3 answers:
+            //3 answers for Booleans and null:
             //1. IsHappy = true, IsHappy = false, IsHappy = null(did not answer)
-            bool? isHappy = null;
+            bool? isHappy = true;
+
+            if (isHappy == true)
+            {
+                Console.WriteLine("He is happy!");
+            }
+            else if(isHappy == false) //If not true
+            {
+                Console.WriteLine("He is not happy");
+            } 
+            else
+            {
+                Console.WriteLine("He did not respond on the form.");
+            }
 
             Console.WriteLine(isHappy);
             Console.ReadLine();
