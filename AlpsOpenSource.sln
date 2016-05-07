@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Types_Nullable_Demo", "Type
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null_CoalescingOperator_Demo", "Null_CoalescingOperator_Demo\Null_CoalescingOperator_Demo.csproj", "{91CDA551-9A48-46C8-82E2-769A8DD1A871}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Types_Conversion", "Types_Conversion\Types_Conversion.csproj", "{17823668-3936-45AC-9E48-79350CD282DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{91CDA551-9A48-46C8-82E2-769A8DD1A871}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91CDA551-9A48-46C8-82E2-769A8DD1A871}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91CDA551-9A48-46C8-82E2-769A8DD1A871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17823668-3936-45AC-9E48-79350CD282DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17823668-3936-45AC-9E48-79350CD282DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17823668-3936-45AC-9E48-79350CD282DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17823668-3936-45AC-9E48-79350CD282DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
