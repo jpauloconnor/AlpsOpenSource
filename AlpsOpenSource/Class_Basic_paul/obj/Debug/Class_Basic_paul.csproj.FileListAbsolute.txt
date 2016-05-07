@@ -1,0 +1,2 @@
+C:\Users\bahlrichs\Desktop\AlpsOpenSource\AlpsOpenSource\Class_Basic_paul\bin\Debug\Class_Basic_paul.exe.config
+C:\Users\bahlrichs\Desktop\AlpsOpenSource\AlpsOpenSource\Class_Basic_paul\obj\Debug\Class_Basic_paul.csprojResolveAssemblyReference.cache
