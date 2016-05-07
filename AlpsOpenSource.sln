@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null_CoalescingOperator_Dem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Types_Conversion", "Types_Conversion\Types_Conversion.csproj", "{17823668-3936-45AC-9E48-79350CD282DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_ArraysDemo_paul", "Collections_ArraysDemo_paul\Collections_ArraysDemo_paul.csproj", "{E72BB315-5AD4-490F-BB8D-671E9D33097C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{17823668-3936-45AC-9E48-79350CD282DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17823668-3936-45AC-9E48-79350CD282DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17823668-3936-45AC-9E48-79350CD282DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72BB315-5AD4-490F-BB8D-671E9D33097C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72BB315-5AD4-490F-BB8D-671E9D33097C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72BB315-5AD4-490F-BB8D-671E9D33097C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72BB315-5AD4-490F-BB8D-671E9D33097C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
