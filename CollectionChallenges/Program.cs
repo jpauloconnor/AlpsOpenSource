@@ -43,13 +43,14 @@ namespace CollectionChallenges
             {
                 Console.WriteLine("Paul's phone number is {0}", phoneList.ElementAt(4));
             }
-
+            /*
             for (var i = 0; i < phoneList.Count; i++)
             {
                 Console.WriteLine(phoneList.OrderByDescending(true));
                 Console.WriteLine(phoneList.RemoveAt(2));
 
             }
+            */
         }
     }
 }
