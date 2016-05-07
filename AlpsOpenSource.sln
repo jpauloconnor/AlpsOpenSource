@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Basic_paul", "Class_B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions_Demo_paul", "Functions_Demo_paul\Functions_Demo_paul.csproj", "{930ED7E3-2D38-44F7-B5D7-87F288013BE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesConsstructor_Demo_paul", "ClassesConsstructor_Demo_paul\ClassesConsstructor_Demo_paul.csproj", "{195B6579-E21E-4633-A091-91776F78D128}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{930ED7E3-2D38-44F7-B5D7-87F288013BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{930ED7E3-2D38-44F7-B5D7-87F288013BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{930ED7E3-2D38-44F7-B5D7-87F288013BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195B6579-E21E-4633-A091-91776F78D128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195B6579-E21E-4633-A091-91776F78D128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195B6579-E21E-4633-A091-91776F78D128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195B6579-E21E-4633-A091-91776F78D128}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
