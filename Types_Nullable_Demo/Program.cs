@@ -34,6 +34,7 @@ namespace Types_Nullable_Demo
             //Let's say that we don't want to make users answer this on a form.
             //3 answers for Booleans and null:
             //1. IsHappy = true, IsHappy = false, IsHappy = null(did not answer)
+            //Experiment = Change isHappy to null.
             bool? isHappy = true;
 
             if (isHappy == true)
