@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{561CB5A4-E790-404F-9D7B-BA63B4B767E2}</ProjectGuid>
+    <ProjectGuid>{195B6579-E21E-4633-A091-91776F78D128}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Classes_ArrayOfObjects_Demo_paul</RootNamespace>
-    <AssemblyName>Classes_ArrayOfObjects_Demo_paul</AssemblyName>
+    <RootNamespace>ClassesConsstructor_Demo_paul</RootNamespace>
+    <AssemblyName>ClassesConsstructor_Demo_paul</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

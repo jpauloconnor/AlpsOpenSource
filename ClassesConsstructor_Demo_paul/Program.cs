@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Classes_ConstructorDemo_Paul
+namespace ClassesConsstructor_Demo_paul
 {
     class Program
     {
         static void Main(string[] args)
         {
-
             /*CONSTRUCTOR NOTES: 
-No return type. 
-Name matches name of class.
-Help set default values.
-Don't always need them in the class, but create safety.
+    No return type. 
+    Name matches name of class.
+    Help set default values.
+    Don't always need them in the class, but create safety.
 */
 
             //*****TWO OBJECTS FROM CLASS 1 *****//
@@ -78,4 +77,3 @@ Don't always need them in the class, but create safety.
     }
 
 }
-
