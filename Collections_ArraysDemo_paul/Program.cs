@@ -29,7 +29,8 @@ namespace Collections_ArraysDemo_paul
             }
 
             //Arrays are strongly typed. You can't add a string to an int array and vice versa.
-
+            //Arrays cannot grow in size once initialized.
+            //Be aware of the index offest -> The array starts at 0. To access it, we need to use that access index number.
             //ages[5] = "Paul";  -> This won't work.
             Console.ReadLine();
         }
