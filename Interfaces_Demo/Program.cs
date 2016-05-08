@@ -24,15 +24,20 @@ using System.Threading.Tasks;
 /// 6. Can be implemented by a class.
 /// 7. A class can inherit from an interface.
 /// 8. You must add the method into the class.
+/// 9. A class can inherit from multiple interfaces at the same time.
+/// 10. If a class inherits from 2 interfaces, it must implement all methods.
 /// </summary>
-namespace Interfaces_Demo
+namespace Interfaces_Demo_Part1
 {
     class Program
     {
         static void Main(string[] args)
         {
             Person person1 = new Person();
+            person1.SayHello();
+            person1.SayHelloInAnotherLanguage();
 
+            Console.ReadLine();
         }
     }
 
@@ -41,12 +46,21 @@ namespace Interfaces_Demo
         void SayHello();
     }
 
-    public class Person : IPerson
+    interface IPerson2
+    {
+        void SayHelloInAnotherLanguage();
+    }
+
+    public class Person : IPerson, IPerson2
     {
         public void SayHello()
         {
             Console.WriteLine("Hello");
         }
-    }
 
+        public void SayHelloInAnotherLanguage()
+        {
+            Console.WriteLine("Hola");
+        }
+    }
 }
