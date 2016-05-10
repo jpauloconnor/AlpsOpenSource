@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_Demo_Part2", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_IEnumerable_Demo", "Interfaces_IEnumerable_Demo\Interfaces_IEnumerable_Demo.csproj", "{A109197D-D378-48AF-BF3D-3C3F59393C1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_Multidimensional_JaggedArrays", "Collections_Multidimensional_JaggedArrays\Collections_Multidimensional_JaggedArrays.csproj", "{31C5BB46-2B19-433B-BDFE-A0401F739C61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{A109197D-D378-48AF-BF3D-3C3F59393C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A109197D-D378-48AF-BF3D-3C3F59393C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A109197D-D378-48AF-BF3D-3C3F59393C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C5BB46-2B19-433B-BDFE-A0401F739C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C5BB46-2B19-433B-BDFE-A0401F739C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C5BB46-2B19-433B-BDFE-A0401F739C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C5BB46-2B19-433B-BDFE-A0401F739C61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
