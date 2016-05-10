@@ -24,22 +24,28 @@ namespace Interfaces_Demo_Part2
         }
     }
 
+   
+
+    interface IPerson1
+    {
+        void StateName();
+    }
+
+    interface IPerson2 : IPerson1
+    {
+        void StateLastName();
+    }
+
     public class Person : IPerson2
     {
         public void StateName()
         {
             Console.WriteLine("My name is Jonas");
         }
+        public void StateLastName()
+        {
+            Console.WriteLine("O'Connor");
+        }
     }
-
-    interface IPerson1
-    {
-        void StateName();
-    }
-    interface IPerson2 : IPerson1
-    {
-
-    }
-
 
 }
