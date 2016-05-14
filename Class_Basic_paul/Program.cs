@@ -22,6 +22,13 @@ namespace Class_Basic_paul
             newCar.Name = "Pinto";
             newCar.Price = 9000;
 
+            Car mustang = new Car();
+            mustang.Name = "Mustang";
+            mustang.Price = 100000;
+            mustang.IsFast = true;
+
+
+
             Console.WriteLine("{0} owns a {1}, and it's in bad shape.", paul.FirstName, newCar.Name);  //In bad shape could be a bool.
             Console.WriteLine("I think it is worth about a ${0} bucks for a trade in.", newCar.Price);
 
