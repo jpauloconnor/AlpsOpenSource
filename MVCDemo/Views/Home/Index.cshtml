@@ -1,0 +1,68 @@
+﻿<!--1. Overview: This file covers the <html> on your site's main page. 
+               This file handles the view
+     The ViewBag.Title sets the title for the main page. A ViewBag allows users to...-->
+
+
+<!--2. This section is basic text for your web page. "jumbotron" is a bootstrap class, along with the "btn btn-primary" code Those are brought to you by bootstrap.css. It's in the
+        the content folder-->
+
+<!--3. More HTML for text here with the <h2> tags and the <p> tags. The col-md-4 is another bootstrap concept.  Basically, it takes allows for different devices. Notice that there are three of those
+    below. They always need to add up to twelve.
+    ____________________________________________________________________________________
+    |          4                |          4                |          4                |
+    |    Getting Started        |     Get More Libraries    |         Web Hosting       |
+    |___________________________|___________________________}___________________________|
+
+    When we resive the window for a mobile device, Bootstrap will allow the code to go like this:
+    ___
+
+     4 - Getting Started
+    ___
+
+     4 = Get More Libraries
+    ___
+
+     4 - Web Hosting
+    ___
+
+    -->
+
+
+<!--1-->
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<!--2-->
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+
+<!--3-->
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+
+<!--BRONZE: Challenge another <div class> Call it MSDN tutorials in the headers. Provide a button that links to this address: https://msdn.microsoft.com/en-us/library/aa288436(v=vs.71).aspx. -->
