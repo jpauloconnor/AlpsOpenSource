@@ -1,6 +1,9 @@
 ﻿/*Overrides some of the bootstrap items in bootstrap.css
     This gets bundled up in the BundleConfig
 
+    Challenge:
+        Bronze: Fix the padding so that the body is 2x farther away from the top and bottom.
+        Silver: Change the color of the body text to purple.
 */
 
 body {
