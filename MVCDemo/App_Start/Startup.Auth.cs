@@ -14,6 +14,11 @@ using MVCDemo.Models;
     3. Validates security stamp at log in. Security feature for changing pw
     4. Enables storing info during 2 step verification
     5. Microsoft, Twitter, Google, Facebook Authentication
+     
+    Challenge 
+        Bronze: 
+        Silver: Enable Facebook log in. 
+
      */
 
 namespace MVCDemo
