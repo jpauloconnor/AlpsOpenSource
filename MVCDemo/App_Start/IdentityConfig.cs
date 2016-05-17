@@ -12,13 +12,28 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using MVCDemo.Models;
 
+
+/*In this file, you can do the following
+
+    1. Plug in your email service to send email
+    2. Plug in your SMS service here to send a text message.
+    3. Configure the application user manager used in this 
+    application. UserManager is defined in ASP.NET Identity 
+    and is used by the application.
+    4. Configure validation logic for usernames(Allow alphanumeric usernames, Require unique email.)
+    5. Configure validation logic for passwords: Length, NonLetterOrDigi, Require digit, require lower, require upper
+    6. Configure user lockout defaults - Timespan, MaxFailedAccessAttempts
+    7. Register two factor authentication providers. This application uses Phone and Emails as a step of receiving a code for verifying the user
+       You can write your own provider and plug it in here.
+    8.  Configure the application sign-in manager which is used in this application.
+ */
 namespace MVCDemo
 {
     public class EmailService : IIdentityMessageService
     {
         public Task SendAsync(IdentityMessage message)
         {
-            // Plug in your email service here to send an email.
+            //1. Plug in your email service here to send an email.
             return Task.FromResult(0);
         }
     }
@@ -27,12 +42,12 @@ namespace MVCDemo
     {
         public Task SendAsync(IdentityMessage message)
         {
-            // Plug in your SMS service here to send a text message.
+            //2. Plug in your SMS service here to send a text message.
             return Task.FromResult(0);
         }
     }
 
-    // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
+    // 3. Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
     public class ApplicationUserManager : UserManager<ApplicationUser>
     {
         public ApplicationUserManager(IUserStore<ApplicationUser> store)
@@ -43,14 +58,14 @@ namespace MVCDemo
         public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options, IOwinContext context) 
         {
             var manager = new ApplicationUserManager(new UserStore<ApplicationUser>(context.Get<ApplicationDbContext>()));
-            // Configure validation logic for usernames
+            //4. Configure validation logic for usernames
             manager.UserValidator = new UserValidator<ApplicationUser>(manager)
             {
                 AllowOnlyAlphanumericUserNames = false,
                 RequireUniqueEmail = true
             };
 
-            // Configure validation logic for passwords
+            // 5. Configure validation logic for passwords: Length, NonLetterOrDigi, Require digit, require lower, require upper
             manager.PasswordValidator = new PasswordValidator
             {
                 RequiredLength = 6,
@@ -60,12 +75,12 @@ namespace MVCDemo
                 RequireUppercase = true,
             };
 
-            // Configure user lockout defaults
+            // 6. Configure user lockout defaults - Timespan, MaxFailedAccessAttempts
             manager.UserLockoutEnabledByDefault = true;
             manager.DefaultAccountLockoutTimeSpan = TimeSpan.FromMinutes(5);
             manager.MaxFailedAccessAttemptsBeforeLockout = 5;
 
-            // Register two factor authentication providers. This application uses Phone and Emails as a step of receiving a code for verifying the user
+            //7. Register two factor authentication providers. This application uses Phone and Emails as a step of receiving a code for verifying the user
             // You can write your own provider and plug it in here.
             manager.RegisterTwoFactorProvider("Phone Code", new PhoneNumberTokenProvider<ApplicationUser>
             {
