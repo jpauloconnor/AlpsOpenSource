@@ -19,6 +19,7 @@ namespace Interfaces_Demo_Part2
     {
         static void Main(string[] args)
         { 
+
             Person person1 = new Person();
             person1.StateName();
         }
@@ -36,6 +37,11 @@ namespace Interfaces_Demo_Part2
         void StateLastName();
     }
 
+    interface IPerson3
+    {
+        void StateAwesome();
+    }
+
     public class Person : IPerson2
     {
         public void StateName()
@@ -48,4 +54,12 @@ namespace Interfaces_Demo_Part2
         }
     }
 
+
+    public class Paul : Person, IPerson3
+    {
+        public void StateAwesome()
+        {
+            Console.WriteLine("Awesome");
+        }
+    }
 }
