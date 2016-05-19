@@ -2,8 +2,8 @@
 using System.Web.Optimization;
 
 
-//Bundling helps combine/bundle mutliple files into a single file. Fewer files means fewer HTTP requests, which can improve
-//page loading performance.
+//What you're doing here is bundling. Bundling helps you throw a bunch of files into a single file. This means that you won't have as many HTTP requests, 
+//which can improve page loading performance.
 namespace MVCDemo
 {
     public class BundleConfig
@@ -16,7 +16,7 @@ namespace MVCDemo
 
            
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));//{version} gets the version of jquery
+                        "~/Scripts/jquery-{version}.js")); // ->{version} gets the version of jquery
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
