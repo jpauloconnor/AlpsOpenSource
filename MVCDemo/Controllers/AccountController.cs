@@ -12,22 +12,37 @@ using MVCDemo.Models;
 
 namespace MVCDemo.Controllers
 {
-    [Authorize]
+    /*1
+     * [Authorize] is a decorator that helps secure your MVC application. You need one in each controller. 
+    Essentially it forbids any unauthorized access
+    Applies to all actions in the controller
+    Attempting to authorize without access will take us to a log in screen*/
+    
+
+    /*
+        [AllowAnonymous] is a decorator that does exactly what it says.
+         Allows anonymous users to go to the page to sign in.
+         */
+    [Authorize] //1
     public class AccountController : Controller
     {
+        //Fields to be used in the constructor below.
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
+        //This is a constructor.
         public AccountController()
         {
         }
-
+        // This is another constructor
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
             SignInManager = signInManager;
         }
 
+
+        // This method will execute after you enter credentials and hit login. Set a breakpoint to test.
         public ApplicationSignInManager SignInManager
         {
             get
@@ -40,6 +55,8 @@ namespace MVCDemo.Controllers
             }
         }
 
+
+       
         public ApplicationUserManager UserManager
         {
             get
@@ -54,6 +71,7 @@ namespace MVCDemo.Controllers
 
         //
         // GET: /Account/Login
+        //2
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
@@ -75,15 +93,19 @@ namespace MVCDemo.Controllers
 
             // This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, change to shouldLockout: true
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
+            //Experiment: Set shouldLockout to true and enter an incorrect password. Set Identity.Config to 
+            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: true);
             switch (result)
             {
+                //This is self-explanatory. If it works, it redirects to the user's main page.
                 case SignInStatus.Success:
                     return RedirectToLocal(returnUrl);
+                    //If it doesn't work, and the user has signed in multiple times. The user will be locked out.
                 case SignInStatus.LockedOut:
                     return View("Lockout");
                 case SignInStatus.RequiresVerification:
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
+                    //Of course, if the password is invalid, it jumps to here. 
                 case SignInStatus.Failure:
                 default:
                     ModelState.AddModelError("", "Invalid login attempt.");
