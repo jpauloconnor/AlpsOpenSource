@@ -93,7 +93,8 @@ namespace MVCDemo.Controllers
 
             // This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, change to shouldLockout: true
-            //Experiment: Set shouldLockout to true and enter an incorrect password. Set Identity.Config to 
+            //Experiment: See if you can get your test user to be locked out of the account after one bad login attempt. 
+            //Answer: Set shouldLockout to true and enter an incorrect password. Set Identity.Config to 
             var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: true);
             switch (result)
             {
