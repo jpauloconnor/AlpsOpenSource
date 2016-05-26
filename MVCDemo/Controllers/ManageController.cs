@@ -10,6 +10,15 @@ using MVCDemo.Models;
 
 namespace MVCDemo.Controllers
 {
+    //This file handles password changes.
+    //Managing external logins
+    //Two-Factor authentication configuration.
+
+    //Challenge:
+    //1) Define two-factor authentication and configure two-factor authentication for the project.
+    //Follow this tutorial for more. http://www.asp.net/mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication
+    //Here's a helpful link to understand what's going on in this file:
+    //http://www.asp.net/identity/overview/features-api/two-factor-authentication-using-sms-and-email-with-aspnet-identity
     [Authorize]
     public class ManageController : Controller
     {
@@ -50,7 +59,7 @@ namespace MVCDemo.Controllers
             }
         }
 
-        //
+        //THe index method sets the status message based on your previous action and provides links to change your local password or add a local account.
         // GET: /Manage/Index
         public async Task<ActionResult> Index(ManageMessageId? message)
         {
@@ -99,7 +108,7 @@ namespace MVCDemo.Controllers
             return RedirectToAction("ManageLogins", new { Message = message });
         }
 
-        //
+        // This method displays a dialog box to enter a phone number that can recieve SMS messages.
         // GET: /Manage/AddPhoneNumber
         public ActionResult AddPhoneNumber()
         {
