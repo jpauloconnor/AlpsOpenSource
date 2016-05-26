@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
+
+//Model handles properties for login, forgot password, register, reset password.
 namespace MVCDemo.Models
 {
     public class ExternalLoginConfirmationViewModel
@@ -62,6 +64,10 @@ namespace MVCDemo.Models
         public bool RememberMe { get; set; }
     }
 
+
+    /*Challenges: Change something about the confirmation message. 
+                   Change the length that passwords have to be.
+         */
     public class RegisterViewModel
     {
         [Required]
