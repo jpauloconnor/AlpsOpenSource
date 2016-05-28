@@ -87,6 +87,7 @@ namespace MVCDemo.Models
         public string ConfirmPassword { get; set; }
     }
 
+    //Challenges: 
     public class ResetPasswordViewModel
     {
         [Required]
@@ -108,6 +109,7 @@ namespace MVCDemo.Models
         public string Code { get; set; }
     }
 
+    //This has a view of it's own. ForgotPassword.cshtml
     public class ForgotPasswordViewModel
     {
         [Required]
