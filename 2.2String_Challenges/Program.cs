@@ -10,7 +10,6 @@ namespace _2._2String_Challenges
     {
         static void Main(string[] args)
         {
-            /**** String Concantenation. ****/
             /*
             BRONZE CHALLENGE:
                 Research the MSDN to learn about working with strings in C#. Composite formatting.
