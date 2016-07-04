@@ -9,9 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums_Demo", "Enums_Demo\En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structs_Demo", "Structs_Demo\Structs_Demo.csproj", "{A6465AB4-FBD7-47D5-A2E7-0575132C7336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTypes_Demo", "BasicTypes_Demo\BasicTypes_Demo.csproj", "{C1606E6D-ADF0-40CB-BC6F-B9BDED1F2FCE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTypesChallenge_Answers_paul", "BasicTypesChallenge_Answers_paul\BasicTypesChallenge_Answers_paul.csproj", "{E89A00F9-38EF-489C-8ABA-41582333ABF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1BasicTypes_Demo", "BasicTypes_Demo\1.1BasicTypes_Demo.csproj", "{C1606E6D-ADF0-40CB-BC6F-B9BDED1F2FCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Basic_paul", "Class_Basic_paul\Class_Basic_paul.csproj", "{44EE9E23-0E13-4BDF-86FF-434C662DC722}"
 EndProject
@@ -73,7 +71,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardShortcuts_Chords", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Polymorphism", "Classes_Polymorphism\Classes_Polymorphism.csproj", "{8892E3FA-0D14-4DB1-8A85-2B0C16808B07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTypes", "BasicTypes\BasicTypes.csproj", "{8CE32C23-7DFB-4D1B-865F-67CAC9219E40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2BasicTypes_Challenges", "BasicTypes\1.2BasicTypes_Challenges.csproj", "{8CE32C23-7DFB-4D1B-865F-67CAC9219E40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassBasicClassDemo", "ClassBasicClassDemo\ClassBasicClassDemo.csproj", "{3CDE5096-4A45-4D7F-BE7F-5FEA78AC20E9}"
 EndProject
@@ -92,6 +90,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{CAF759C2-4B3C-4CFB-A20F-396C9B64A1DC}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Interfaces_IENumerable", "Interfaces_IENumerable\Interfaces_IENumerable.xproj", "{94501B9F-04C2-47D4-88C3-E0D8C8D30385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2String_Challenges", "2.2String_Challenges\2.2String_Challenges.csproj", "{CA51AE7D-E9EF-4B85-BB2B-A4136623E009}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,10 +115,6 @@ Global
 		{C1606E6D-ADF0-40CB-BC6F-B9BDED1F2FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1606E6D-ADF0-40CB-BC6F-B9BDED1F2FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1606E6D-ADF0-40CB-BC6F-B9BDED1F2FCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E89A00F9-38EF-489C-8ABA-41582333ABF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E89A00F9-38EF-489C-8ABA-41582333ABF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E89A00F9-38EF-489C-8ABA-41582333ABF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E89A00F9-38EF-489C-8ABA-41582333ABF4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{44EE9E23-0E13-4BDF-86FF-434C662DC722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44EE9E23-0E13-4BDF-86FF-434C662DC722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44EE9E23-0E13-4BDF-86FF-434C662DC722}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -275,6 +271,10 @@ Global
 		{94501B9F-04C2-47D4-88C3-E0D8C8D30385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94501B9F-04C2-47D4-88C3-E0D8C8D30385}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94501B9F-04C2-47D4-88C3-E0D8C8D30385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA51AE7D-E9EF-4B85-BB2B-A4136623E009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA51AE7D-E9EF-4B85-BB2B-A4136623E009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA51AE7D-E9EF-4B85-BB2B-A4136623E009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA51AE7D-E9EF-4B85-BB2B-A4136623E009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,12 +28,15 @@ namespace BasicTypes_Demo
             decimal dd = 7.80m; // must add the m if using a constant, or you could cast as (decimal)
             int? ni = null; // nullable variables, use .HasValue to determine if they are populated, useful with web services, database results
 
+            //Using Console.WriteLine
             Console.WriteLine(s2);
             Console.WriteLine("i = {0}, sh = {1}", i, sh);
             Console.WriteLine(i + sh);
 
-            Console.ReadLine();
+            //Have them practice a little concatentation.
 
+            //Use this to get the console to pop up.
+            Console.ReadLine();
 
         }
     }
