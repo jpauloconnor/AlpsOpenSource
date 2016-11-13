@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 /*Takes care of the logic for the Home page. 
 These methods (Index, About, and Contact) within our Controller are called 
@@ -16,16 +12,31 @@ The route is determined by the RouteConfig, and right now it points like this
 
 The route name gets its name from the first word in whatever controller it is: HomeController. 
      */
-    
+
 
 namespace MVCDemo.Controllers
 {
     public class HomeController : Controller
     {
+        //https://www.asp.net/mvc/overview/older-versions-1/controllers-and-routing/asp-net-mvc-routing-overview-cs
         public ActionResult Index()
         {
             return View();
         }
+
+        //This one will still work. It's nullable -> int?.
+        //  Home/(Can be empty) or Home/1
+        //public ActionResult Index(int? id)
+        //{
+        //    return View();
+        //}
+
+        //This one will not work. It requires a param.
+        //   /Home/1
+        //public ActionResult Index(int id)
+        //{
+        //    return View();
+        //}
 
         public ActionResult About()
         {

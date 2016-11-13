@@ -1,0 +1,18 @@
+
+
+
+App	________________________________________________________________________________________________  App 
+Start	|            |            |               |         |           |          |          |       End  
+		Begin     Resolve       MapRequest    Acquire     Request     Update     Log         End
+		Request		Request     Handler       Request     Handler     Request    Request     Request
+					Cache					  State       Execute     Cache
+
+
+
+
+Application Start
+	-An event that fires when first request is received
+	-Can be used to run initial configuration code
+
+
+	Go to Global.asax
